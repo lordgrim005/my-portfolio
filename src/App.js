@@ -14,6 +14,7 @@ import {
   User,
   ChevronDown,
 } from "lucide-react";
+import { Analytics } from "@vercel/analytics/react";
 
 const projects = [
   {
@@ -275,8 +276,7 @@ const StunningPortfolio = () => {
 
       <footer className="bg-black text-center py-6 border-t border-purple-800">
         <p className="text-purple-400">
-          &copy; All rights reserved across the
-          multiverse.
+          &copy; All rights reserved across the multiverse.
         </p>
       </footer>
 
